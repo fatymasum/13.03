@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+
+}
+
+.container {
+    width: 1500px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.navbar>ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul li {
+    padding: 20px;
+}
+
+.logo img {
+
+    width: 190px;
+
+}
+
+.foti {
+    background-image: url(background.webp);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foti img {
+
+    animation: avtobus 4s ease 0s infinite alternate;
+}
+
+@keyframes avtobus {
+    0% {
+        transform: translateX(100px);
+    }
+
+    100% {
+        transform: translateX(-100px);
+    }
+}
+
+.text {
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    padding: 70px;
+}
+
+.text h1 {
+    font-size: 60px;
+    color: rgb(50, 50, 95);
+
+
+}
+
+.text2 h2 {
+    padding: 100px;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(84, 84, 136);
+
+
+}
+text2 p{
+    font-size: 30px;
+    color: rgb(82, 82, 129);
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin: 30px;
+}  
+.background2 img{
+    width: 600px;
+    margin:50px;
+    padding:30px;
+  
+}
+.background2 {
+    position: relative;
+    text-align: center;
+}
+
+.background2 img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.background2 p,
+.background2 h7 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: rgb(110, 107, 117);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 80%; 
+    max-width: 600px; 
+}
+
